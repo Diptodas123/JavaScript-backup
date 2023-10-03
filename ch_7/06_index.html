@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="06_style.css">
+</head>
+
+<body>
+    <div id="div1">
+        <h1 class="Heading" id="head1">Fill the following form</form></h1>
+    </div>
+    <form class="form-conatiner" name="Form">
+        <fieldset>
+            <legend><b>Form1:</b></legend>
+            <label class="labelBox" for="Name">Name</label>
+            <input class="inputBox" id="Name" type="text" placeholder="Full name">
+            <label class="labelBox" for="DOB" >DOB</label>
+            <input class="inputBox" id="DOB" type="date" max="2004-12-31" >
+            <label class="labelBox" for="Age">Age</label>
+            <input class="inputBox" id="Age" readonly>
+            <label class="labelBox" for="photo"></label>
+            <input class="inputBox" id="photo" type="file" accept="image/jpeg, image/png" onchange="displayPhoto()">
+            <br>
+            <button class="inputBox" id="Submit" >Submit</button>
+        </fieldset>
+    </form>
+    <script src="06_searching_elements.js"></script>
+    <script src="07_matches_closest_contains.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bulbon {
+            height: 340px;
+            width: 340px;
+            background-color: yellow;
+        }
+
+        .bulboff {
+            background-color: white;
+        }
+    </style>
+    <script>
+        setInterval(() => {
+            document.getElementsByTagName("div")[0].classList.toggle("bulboff");
+        }, 300);
+
+    </script>
+</head>
+
+<body>
+    <div class="bulbon bulboff">
+        
+    </div>
+</body>
+
+</html>

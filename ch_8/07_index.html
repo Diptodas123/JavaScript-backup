@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .container {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        #box {
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="box"></div>
+            <input type="text" id="colorName" placeholder="Enter a color"
+                style="padding: 10px ;width:200px;margin-top: 50px;margin-left: 40px;">
+            <br>
+            <input type="button" value="Submit" style="margin-left: 120px;margin-top: 20px;padding: 10px">
+        </div>
+    </div>
+    <script src="./07_events.js"></script>
+</body>
+
+</html>

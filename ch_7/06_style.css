@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(207, 64, 207);
+    color: rgb(211, 146, 25);
+}
+.form-conatiner{
+    justify-content: center;
+    margin-left: 10px;
+    display:flex;
+}
+.form-conatiner fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 400px;
+}
+.form-conatiner input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.form-conatiner label,input{
+    color: #cf40cf;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#Submit{
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin-left:330px;
+    margin-right: 130px;
+}
+.form-conatiner legend{
+    color: black;
+    align-content: center;
+}
